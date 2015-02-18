@@ -1,0 +1,34 @@
+/*
+ Theme Name:   Crosswalk
+ Theme URI:    http://dogburndesign.com
+ Description:  Accesspress Pro Child Theme for Crosswalk
+ Author:       DJ Wilkerson
+ Author URI:   http://dogburndesign.com
+ Template:     accesspress-pro
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  accesspress-pro-child
+*/
+
+.site-header.style1 .main-navigation, .site-header.style1 .main-navigation, .socials a:hover, #action-bar, .bttn:after, .event-button li.no-link, .site-header.style2 .top-header, .site-header.style3 .top-header, .site-header.style4 #main-header, .featured-post .featured-overlay, .bttn, button, input[type="button"], input[type="reset"], input[type="submit"], #sequence .more-link, .bx-wrapper .slider-caption .more-link, #slider-banner .bx-wrapper .bx-pager.bx-default-pager a:after, #slider-banner .bx-wrapper .bx-controls-direction a{
+    background-color:#F19621;
+}
+.site-header.style1 .main-navigation .current_page_item a{
+    background-color: #CF8500;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+}
+.site-header.style1 .main-navigation .current_page_item a:hover, .site-header.style1 .main-navigation li:hover > a{
+    background-color: #FFBA3F;
+}
+
+
+
+
+/* ------ MOBILE STYLING   -----------*/
+
+@media screen and (max-width: 940px){
+    .main-navigation a{
+        color:#8b8b8b;
+    }
+}
