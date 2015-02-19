@@ -18,6 +18,14 @@
     transition: all .2s;
     -webkit-transition: all .2s;
 }
+.socials a, .searchform{
+    border-color: #F19621;
+    color:#F19621;
+    background:rgba(255,255,255,.5);
+}
+#masthead #top-header{
+    background:url(images/diagonales_decalees.png) repeat scroll;
+}
 .site-header.style1 .main-navigation .current_page_item a:hover, .site-header.style1 .main-navigation li:hover > a{
     background-color: #FFBA3F;
 }

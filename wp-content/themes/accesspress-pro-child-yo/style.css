@@ -11,5 +11,12 @@
 */
 
 .site-header.style1 .main-navigation, .site-header.style1 .main-navigation{
-    background-color: #173644;
+    background-color: #19B8C1;
+}
+a, .socials a, .searchform{
+    border-color: #19B8C1;
+    color:#19B8C1;
+}
+#masthead #top-header{
+    background:url(images/dark_embroidery.png) repeat scroll;
 }
