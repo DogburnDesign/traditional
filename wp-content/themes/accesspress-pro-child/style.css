@@ -9,3 +9,24 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  accesspress-pro-child
 */
+
+#masthead #top-header{
+    background:url(images/xv.png) repeat scroll;
+}
+
+.worshiptime-section h4{
+    font-size: 30px !important;
+}
+.entry-header{
+    display: none;
+}
+
+
+
+@media screen and (max-width: 940px){
+
+.main-navigation .menu ul li, .site-header.style2 .main-navigation li{
+    background:#ABABAB;
+}
+    
+}

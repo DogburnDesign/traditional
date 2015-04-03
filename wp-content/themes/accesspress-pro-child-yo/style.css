@@ -20,3 +20,28 @@ a, .socials a, .searchform{
 #masthead #top-header{
     background:url(images/dark_embroidery.png) repeat scroll;
 }
+.entry-header{
+    display: none;
+}
+
+/* SIDE BAR */
+.sidebar.right-sidebar{
+    background: #19B8C1;
+    color:#fff;
+    padding: 10px;
+}
+.sidebar h3.widget-title, .textwidget h3{
+    color:#fff !important;
+}
+.sidebar h3.widget-title span:after{
+    border-bottom: #fff;
+}
+
+/* MOBILE STYLING */
+@media screen and (max-width: 940px){
+
+.main-navigation .menu ul li, .site-header.style2 .main-navigation li{
+    background:#ABABAB;
+}
+    
+}

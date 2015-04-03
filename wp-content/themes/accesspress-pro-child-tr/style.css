@@ -9,3 +9,32 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  accesspress-pro-child
 */
+
+#masthead #top-header{
+    background:url(images/xv.png) repeat scroll;
+}
+.entry-header{
+    display: none;
+}
+
+/* SIDE BAR */
+.sidebar.right-sidebar{
+    background: #666666;
+    color:#fff;
+    padding: 10px;
+}
+.sidebar h3.widget-title, .textwidget h3{
+    color:#fff !important;
+}
+.sidebar h3.widget-title span:after{
+    border-bottom: #fff;
+}
+
+/* MOBILE */
+@media screen and (max-width: 940px){
+
+.main-navigation .menu ul li, .site-header.style2 .main-navigation li{
+    background:#ABABAB;
+}
+    
+}

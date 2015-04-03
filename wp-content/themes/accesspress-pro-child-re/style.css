@@ -13,3 +13,32 @@
 .site-header.style1 .main-navigation, .site-header.style1 .main-navigation{
     background-color: #173644;
 }
+
+#masthead #top-header{
+    background:url(images/hoffman.png) repeat scroll;
+}
+.entry-header{
+    display: none;
+}
+
+/* SIDE BAR */
+.sidebar.right-sidebar{
+    background: #173644;
+    color:#fff;
+    padding: 10px;
+}
+.sidebar h3.widget-title, .textwidget h3{
+    color:#fff !important;
+}
+.sidebar h3.widget-title span:after{
+    border-bottom: #fff;
+}
+
+/* MOBILE */
+@media screen and (max-width: 940px){
+
+.main-navigation .menu ul li, .site-header.style2 .main-navigation li{
+    background:#ABABAB;
+}
+    
+}

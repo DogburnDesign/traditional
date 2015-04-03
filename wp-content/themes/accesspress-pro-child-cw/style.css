@@ -30,6 +30,27 @@
     background-color: #FFBA3F;
 }
 
+#header-banner-image img{
+    width:100%;
+    margin-bottom: 10px;
+}
+.entry-header{
+    display: none;
+}
+
+/* SIDE BAR */
+.sidebar.right-sidebar{
+    background: #F19621;
+    color:#fff;
+    padding: 10px;
+}
+.sidebar h3.widget-title, .textwidget h3{
+    color:#fff !important;
+}
+.sidebar h3.widget-title span:after{
+    border-bottom: #fff;
+}
+
 
 
 
